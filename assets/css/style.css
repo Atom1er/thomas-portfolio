@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main-contain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#contain {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+
+#header {
+  height: 10%;
+}
+
+#tab {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#tab ul li:nth-child(1) {
+  background-color: #5680E9;
+  width: 10%;
+}
+
+#tab ul li:nth-child(1) .title {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#tab ul li:nth-child(2) {
+  background-color: #84CEEB;
+  width: 70%;
+}
+
+#tab ul li:nth-child(2) .title {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#tab ul li:nth-child(3) {
+  background-color: #5AB9EA;
+  width: 10%;
+}
+
+#tab ul li:nth-child(3) .title {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#tab ul li:nth-child(4) {
+  background-color: #C1C8E4;
+  width: 10%;
+}
+
+#tab ul li:nth-child(4) .title {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#tab ul:hover li {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  width: 10%;
+}
+
+#tab ul:hover li .title {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#tab ul:hover li #welcom {
+  bottom: -100%;
+}
+
+#tab ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#tab ul li {
+  position: relative;
+  height: 100%;
+  list-style: none;
+  float: left;
+  margin: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#tab ul li .tab-text {
+  position: absolute;
+  bottom: -100%;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  color: beige;
+}
+
+#tab ul li #welcom {
+  position: absolute;
+  bottom: 40%;
+  left: 45px;
+  margin-left: 25%;
+  letter-spacing: 0.1em;
+  line-height: 2.3rem;
+  color: beige;
+  font-size: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#tab ul li #welcom #launch {
+  position: relative;
+  background-color: rgba(100, 158, 180, 0.3);
+  width: 400px;
+  text-align: center;
+  margin-top: 0%;
+}
+
+#tab ul li #welcom #launch:hover {
+  cursor: default;
+}
+
+#tab ul li #welcom #launch:hover i {
+  width: +10%;
+  height: +10%;
+}
+
+#tab ul li .title {
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: beige;
+  margin-top: 100px;
+  margin-left: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#tab ul li:hover {
+  width: 70%;
+}
+
+#tab ul li:hover .tab-text {
+  bottom: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  opacity: 1;
+}
+
+#tab ul li:hover .title {
+  text-transform: uppercase;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#tab ul li:hover #welcom {
+  bottom: 40%;
+}
+
+#who-i-am {
+  width: 50%;
+  float: left;
+}
+
+#who-i-am #introduction {
+  margin: 5px 5px 20px 5px;
+  width: 100%;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  border-right: 3px solid rgba(130, 92, 201, 0.5);
+  border-bottom: 3px solid rgba(130, 92, 201, 0.5);
+  -webkit-box-shadow: 10px 2px 5px 0px rgba(130, 92, 201, 0.5);
+          box-shadow: 10px 2px 5px 0px rgba(130, 92, 201, 0.5);
+}
+
+#who-i-am #photo {
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  background-image: url("../images/thomas.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+#skills {
+  float: right;
+  width: 50%;
+}
+
+#skills .skill {
+  width: 50%;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  background-color: #84CEEB;
+}
+
+#left-projects {
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+}
+
+#left-projects .left {
+  width: 100%;
+  height: 50%;
+}
+
+#left-projects .left img {
+  width: 300px;
+  height: 300px;
+  background-color: #5680E9;
+}
+
+#right-projects {
+  float: right;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+}
+
+#right-projects .right {
+  width: 100%;
+  height: 50%;
+}
+
+#right-projects .right img {
+  width: 300px;
+  height: 300px;
+  background-color: #C1C8E4;
+}
+
+#footer {
+  height: 10%;
+}
+/*# sourceMappingURL=style.css.map */
