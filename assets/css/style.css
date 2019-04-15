@@ -221,40 +221,81 @@ body {
   background-color: #84CEEB;
 }
 
-#left-projects {
-  float: left;
-  width: 50%;
+#projects-tab {
+  position: relative;
+  width: 100%;
   height: 100%;
+  margin-left: 10%;
+}
+
+#projects-tab .left {
+  position: relative;
+  width: 45%;
+  display: inline-block;
   margin: 0;
 }
 
-#left-projects .left {
-  width: 100%;
-  height: 50%;
+#projects-tab .left .projects {
+  position: relative;
+  width: 70%;
+  height: 30%;
+  margin: 0 0 15px 0;
 }
 
-#left-projects .left img {
-  width: 300px;
-  height: 300px;
-  background-color: #5680E9;
+#projects-tab .left .projects img {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  display: inline-block;
 }
 
-#right-projects {
-  float: right;
-  width: 50%;
-  height: 100%;
+#projects-tab .left .projects .details {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  height: 10%;
+  margin-left: 0;
+}
+
+#projects-tab .left .projects .details .tech-used {
+  position: relative;
+  width: 10%;
+  height: 10%;
+}
+
+#projects-tab .right {
+  position: relative;
+  width: 45%;
+  display: inline-block;
   margin: 0;
 }
 
-#right-projects .right {
-  width: 100%;
-  height: 50%;
+#projects-tab .right .projects {
+  position: relative;
+  width: 70%;
+  height: 30%;
+  margin: 0 0 15px 0;
 }
 
-#right-projects .right img {
-  width: 300px;
-  height: 300px;
-  background-color: #C1C8E4;
+#projects-tab .right .projects img {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  display: inline-block;
+}
+
+#projects-tab .right .projects .details {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  height: 10%;
+  margin-left: 0;
+}
+
+#projects-tab .right .projects .details .tech-used {
+  position: relative;
+  width: 10%;
+  height: 10%;
 }
 
 #footer {
