@@ -16,11 +16,11 @@ body {
 #contain {
   position: relative;
   width: 100%;
-  height: 80%;
+  height: 90%;
 }
 
 #header {
-  height: 10%;
+  height: 5%;
   background-color: beige;
 }
 
@@ -137,21 +137,12 @@ body {
   margin-top: 0%;
 }
 
-#tab ul li #welcom #launch:hover {
-  cursor: default;
-}
-
-#tab ul li #welcom #launch:hover i {
-  width: +10%;
-  height: +10%;
-}
-
 #tab ul li .title {
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   color: beige;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 25px;
   font-size: 2rem;
   font-weight: bold;
@@ -164,6 +155,7 @@ body {
 }
 
 #tab ul li:hover .tab-text {
+  height: 75vh;
   bottom: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -172,11 +164,8 @@ body {
   opacity: 1;
 }
 
-#tab ul li:hover .tab-text-contact {
-  bottom: 50%;
-}
-
 #tab ul li:hover .title {
+  margin-top: 15px;
   text-transform: uppercase;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -186,10 +175,26 @@ body {
   bottom: 40%;
 }
 
+#launch:hover {
+  cursor: default;
+}
+
+#launch:hover i {
+  width: +10%;
+  height: +10%;
+}
+
+#about {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+
 #logos {
   position: relative;
   display: block;
-  width: 90%;
+  width: 50%;
+  height: 10%;
   padding: 15px;
   border-bottom: solid 1px black;
   border-left: none;
@@ -204,7 +209,7 @@ body {
   display: inline-block;
   position: relative;
   width: 10%;
-  height: 70px;
+  height: 35px;
 }
 
 #name {
@@ -235,6 +240,8 @@ body {
 #who-i-am {
   width: 50%;
   float: left;
+  height: 90%;
+  max-height: 90%;
 }
 
 #who-i-am #introduction {
@@ -258,8 +265,8 @@ body {
           box-shadow: 2px 2px 5px 0px  black;
   background-image: url("../images/thomas.jpeg");
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 15em;
+  height: 15em;
   margin-left: 20%;
   margin-bottom: 20px;
 }
@@ -267,17 +274,19 @@ body {
 #skills {
   float: right;
   width: 50%;
+  height: 90%;
+  max-height: 90%;
 }
 
 #skills .skill {
   -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
           clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
   width: 50%;
-  height: 15%;
+  height: 5%;
   list-style: none;
   font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-left: 20%;
   border-radius: 15px;
   background-color: black;
@@ -301,7 +310,7 @@ body {
 #projects-tab .left .projects {
   position: relative;
   width: 70%;
-  height: 30%;
+  height: 40%;
   margin: 0 0 15px 0;
 }
 
@@ -374,7 +383,7 @@ body {
 }
 
 #footer {
-  height: 10%;
+  height: 5%;
   background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
