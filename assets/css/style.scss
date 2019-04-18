@@ -212,9 +212,9 @@ body{
 
 #phone-email{
     display: inline-block;
-    border-left: 2px solid beige;
-    margin-left: 50px;
-    padding-left: 50px; 
+    // border-left: 2px solid beige;
+    margin: 25px;
+    padding: 25px; 
 }
 
 #contact{
@@ -302,13 +302,13 @@ body{
         .projects{
             position: relative;
             width: 70%;
-            height: 40%;
+            height: 50%;
             margin: 0 0 15px 0;
 
             img{
                 position: relative;
                 width: 70%;
-                height: 70%;
+                height: 90%;
                 display: inline-block;
             }
 
@@ -341,13 +341,13 @@ body{
         .projects{
             position: relative;
             width: 70%;
-            height: 30%;
+            height: 50%;
             margin: 0 0 15px 0;
 
             img{
                 position: relative;
                 width: 70%;
-                height: 70%;
+                height: 90%;
                 display: inline-block;
             }
 

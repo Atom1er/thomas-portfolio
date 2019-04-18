@@ -218,9 +218,8 @@ body {
 
 #phone-email {
   display: inline-block;
-  border-left: 2px solid beige;
-  margin-left: 50px;
-  padding-left: 50px;
+  margin: 25px;
+  padding: 25px;
 }
 
 #contact {
@@ -310,14 +309,14 @@ body {
 #projects-tab .left .projects {
   position: relative;
   width: 70%;
-  height: 40%;
+  height: 50%;
   margin: 0 0 15px 0;
 }
 
 #projects-tab .left .projects img {
   position: relative;
   width: 70%;
-  height: 70%;
+  height: 90%;
   display: inline-block;
 }
 
@@ -349,14 +348,14 @@ body {
 #projects-tab .right .projects {
   position: relative;
   width: 70%;
-  height: 30%;
+  height: 50%;
   margin: 0 0 15px 0;
 }
 
 #projects-tab .right .projects img {
   position: relative;
   width: 70%;
-  height: 70%;
+  height: 90%;
   display: inline-block;
 }
 
