@@ -283,6 +283,7 @@ body {
 @media (max-width: 375px) {
   #tab ul li:hover .tab-text {
     right: 5px;
+    height: 100%;
   }
 }
 
