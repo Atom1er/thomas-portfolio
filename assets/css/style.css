@@ -35,7 +35,7 @@ body {
   width: 10%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(1) {
     width: 100%;
     height: 10%;
@@ -48,7 +48,7 @@ body {
   color: black;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(1) .title {
     width: 100%;
     -webkit-transform: rotate(0);
@@ -63,7 +63,7 @@ body {
   width: 70%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(2) {
     width: 100%;
     height: 70%;
@@ -75,7 +75,7 @@ body {
           transform: rotate(0deg);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(2) .title {
     width: 100%;
     margin-top: 10px;
@@ -87,7 +87,7 @@ body {
   width: 10%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(3) {
     width: 100%;
     height: 10%;
@@ -100,7 +100,7 @@ body {
   color: black;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(3) .title {
     width: 100%;
     -webkit-transform: rotate(0);
@@ -115,7 +115,7 @@ body {
   width: 10%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(4) {
     width: 100%;
     height: 10%;
@@ -127,7 +127,7 @@ body {
           transform: rotate(-90deg);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:nth-child(4) .title {
     width: 100%;
     -webkit-transform: rotate(0);
@@ -143,7 +143,7 @@ body {
   width: 10%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul:hover li {
     width: 100%;
     height: 10%;
@@ -155,7 +155,7 @@ body {
           transform: rotate(-90deg);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul:hover li .title {
     -webkit-transform: rotate(0);
             transform: rotate(0);
@@ -166,7 +166,7 @@ body {
   bottom: -100%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul:hover li #welcom {
     bottom: 0;
     right: -100%;
@@ -202,7 +202,7 @@ body {
   color: beige;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li .tab-text {
     bottom: 0;
     right: -100%;
@@ -221,7 +221,7 @@ body {
   transition: 0.5s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li #welcom {
     max-width: 90%;
     bottom: 20%;
@@ -240,7 +240,7 @@ body {
   margin-top: 0%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li #welcom #launch {
     visibility: hidden;
   }
@@ -263,7 +263,7 @@ body {
   width: 70%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:hover {
     width: 100%;
     height: 70%;
@@ -280,7 +280,7 @@ body {
   opacity: 1;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:hover .tab-text {
     right: 5px;
     height: 100%;
@@ -298,7 +298,7 @@ body {
   bottom: 40%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #tab ul li:hover #welcom {
     right: 15px;
     max-width: 90%;
@@ -340,7 +340,7 @@ body {
   border-bottom-left-radius: 30%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #logos {
     display: none;
   }
@@ -397,7 +397,7 @@ body {
   padding: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #who-i-am #introduction {
     margin: 5px;
   }
@@ -417,7 +417,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #who-i-am #photo {
     width: 7em;
     height: 7em;
