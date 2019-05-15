@@ -1,3 +1,12 @@
+$mobile : 600px;
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+
 .close{
 padding: 10px 10px 10px 10px;
 }
@@ -91,7 +100,7 @@ padding: 10px 10px 10px 10px;
     transition: 0.3s;
     width: 100vw;
     height: 100vh;
-    z-index: -2;
+    z-index: -5;
 }
 
 #modal-little-feet:target{
@@ -195,7 +204,7 @@ padding: 10px 10px 10px 10px;
     transition: 0.3s;
     width: 100vw;
     height: 100vh;
-    z-index: -2;
+    z-index: -5;
 }
 
 #modal-movie-finder:target{
@@ -207,7 +216,7 @@ padding: 10px 10px 10px 10px;
 }
 
 #close2:target{
-    z-index: -2;
+    z-index: -5;
     visibility: hidden;
     #modal-movie-finder-contain{
         visibility: hidden;
@@ -311,7 +320,7 @@ padding: 10px 10px 10px 10px;
 }
 
 #close3:target{
-    z-index: -2;
+    z-index: -5;
     visibility: hidden;
     #modal-friend-finder-contain{
         visibility: hidden;
@@ -415,7 +424,7 @@ padding: 10px 10px 10px 10px;
 }
 
 #close4:target{
-    z-index: -2;
+    z-index: -5;
     visibility: hidden;
     #modal-gif-finder-contain{
         visibility: hidden;

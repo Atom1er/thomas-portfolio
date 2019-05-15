@@ -98,7 +98,7 @@
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
+  z-index: -5;
 }
 
 #modal-little-feet:target {
@@ -205,7 +205,7 @@
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
+  z-index: -5;
 }
 
 #modal-movie-finder:target {
@@ -218,7 +218,7 @@
 }
 
 #close2:target {
-  z-index: -2;
+  z-index: -5;
   visibility: hidden;
 }
 
@@ -325,7 +325,7 @@
 }
 
 #close3:target {
-  z-index: -2;
+  z-index: -5;
   visibility: hidden;
 }
 
@@ -432,7 +432,7 @@
 }
 
 #close4:target {
-  z-index: -2;
+  z-index: -5;
   visibility: hidden;
 }
 
