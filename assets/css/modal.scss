@@ -265,6 +265,15 @@ padding: 10px 10px 10px 10px;
                 width: 100%;
                 height: 50%;
             }
+            
+            .link{
+                margin-top: 10px;
+                span a{
+                    margin: 15px;
+                    text-decoration: none;
+                    color: rgb(21, 21, 243);
+                }
+            }
         }
         .modal-project-tech{
             position: relative;
@@ -368,6 +377,15 @@ padding: 10px 10px 10px 10px;
                 position: relative;
                 width: 100%;
                 height: 50%;
+            }
+            
+            .link{
+                margin-top: 10px;
+                span a{
+                    margin: 15px;
+                    text-decoration: none;
+                    color: rgb(21, 21, 243);
+                }
             }
         }
         .modal-project-tech{
