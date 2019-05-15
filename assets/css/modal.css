@@ -23,7 +23,7 @@
   top: 30px;
 }
 
-#modal-little-feet-contain #modal-little-feet-header span a {
+#modal-little-feet-contain #modal-little-feet-header p a {
   text-decoration: none;
 }
 
@@ -50,8 +50,8 @@
   margin-top: 10px;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .image-description .link span a {
-  margin: 15px 75px 15px 75px;
+#modal-little-feet-contain #modal-little-feet-body .image-description .link p a {
+  margin: 15px 35px 15px 35px;
   text-decoration: none;
   color: #1515f3;
 }
@@ -131,7 +131,7 @@
   top: 30px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-header span a {
+#modal-movie-finder-contain #modal-movie-finder-header p a {
   text-decoration: none;
 }
 
@@ -158,8 +158,8 @@
   margin-top: 10px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .image-description .link span a {
-  margin: 15px 75px 15px 75px;
+#modal-movie-finder-contain #modal-movie-finder-body .image-description .link p a {
+  margin: 15px 35px 15px 35px;
   text-decoration: none;
 }
 
@@ -247,7 +247,7 @@
   top: 30px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-header span a {
+#modal-friend-finder-contain #modal-friend-finder-header p a {
   text-decoration: none;
 }
 
@@ -274,8 +274,8 @@
   margin-top: 10px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .image-description .link span a {
-  margin: 15px 75px 15px 75px;
+#modal-friend-finder-contain #modal-friend-finder-body .image-description .link p a {
+  margin: 15px 35px 15px 35px;
   text-decoration: none;
   color: #1515f3;
 }
@@ -364,7 +364,7 @@
   top: 30px;
 }
 
-#modal-gif-finder-contain #modal-gif-finder-header span a {
+#modal-gif-finder-contain #modal-gif-finder-header p a {
   text-decoration: none;
 }
 
@@ -391,8 +391,8 @@
   margin-top: 10px;
 }
 
-#modal-gif-finder-contain #modal-gif-finder-body .image-description .link span a {
-  margin: 15px 75px 15px 75px;
+#modal-gif-finder-contain #modal-gif-finder-body .image-description .link p a {
+  margin: 15px 35px 15px 35px;
   text-decoration: none;
   color: #1515f3;
 }
