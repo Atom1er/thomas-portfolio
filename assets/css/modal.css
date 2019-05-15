@@ -23,7 +23,7 @@
   top: 30px;
 }
 
-#modal-little-feet-contain #modal-little-feet-header p a {
+#modal-little-feet-contain #modal-little-feet-header span a {
   text-decoration: none;
 }
 
@@ -131,7 +131,7 @@
   top: 30px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-header p a {
+#modal-movie-finder-contain #modal-movie-finder-header span a {
   text-decoration: none;
 }
 
@@ -247,7 +247,7 @@
   top: 30px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-header p a {
+#modal-friend-finder-contain #modal-friend-finder-header span a {
   text-decoration: none;
 }
 
@@ -364,7 +364,7 @@
   top: 30px;
 }
 
-#modal-gif-finder-contain #modal-gif-finder-header p a {
+#modal-gif-finder-contain #modal-gif-finder-header span a {
   text-decoration: none;
 }
 
