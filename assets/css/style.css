@@ -452,8 +452,8 @@ body {
 
 #phone-email {
   display: inline-block;
-  margin: 10px;
-  padding: 25px;
+  margin: 5px;
+  padding: 5px;
 }
 
 #contact {
@@ -463,7 +463,7 @@ body {
   padding: 25px;
   letter-spacing: 0.1em;
   line-height: 2.3rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 #who-i-am {
@@ -547,7 +547,7 @@ body {
 }
 
 #linkedin {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: beige;
 }
 /*# sourceMappingURL=style.css.map */
