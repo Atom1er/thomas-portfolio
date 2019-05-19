@@ -463,11 +463,11 @@ body {
   padding: 25px;
   letter-spacing: 0.1em;
   line-height: 2.3rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 #address {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 #who-i-am {
@@ -548,5 +548,10 @@ body {
 #footer {
   height: 5%;
   background-color: black;
+}
+
+#linkedin {
+  font-size: 1.25rem;
+  color: beige;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .close {
-  padding: 10px 10px 10px 10px;
+  padding: 25px 25px;
 }
 
 #modal-little-feet-contain {
@@ -25,6 +25,10 @@
 
 #modal-little-feet-contain #modal-little-feet-header span a {
   text-decoration: none;
+  padding: 25px 25px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
 }
 
 #modal-little-feet-contain #modal-little-feet-body {
@@ -133,6 +137,7 @@
 
 #modal-movie-finder-contain #modal-movie-finder-header span a {
   text-decoration: none;
+  padding: 25px 25px;
 }
 
 #modal-movie-finder-contain #modal-movie-finder-body {
@@ -249,6 +254,7 @@
 
 #modal-friend-finder-contain #modal-friend-finder-header span a {
   text-decoration: none;
+  padding: 25px 25px;
 }
 
 #modal-friend-finder-contain #modal-friend-finder-body {
@@ -366,6 +372,7 @@
 
 #modal-gif-finder-contain #modal-gif-finder-header span a {
   text-decoration: none;
+  padding: 25px 25px;
 }
 
 #modal-gif-finder-contain #modal-gif-finder-body {
