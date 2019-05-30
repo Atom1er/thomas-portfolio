@@ -456,8 +456,13 @@ body {
   padding: 5px;
 }
 
+#phone-email #email {
+  text-transform: uppercase;
+}
+
 #contact {
   background-color: rgba(100, 158, 180, 0.3);
+  color: #e0e004;
   width: 80%;
   margin: auto;
   padding: 25px;
@@ -548,6 +553,6 @@ body {
 
 #linkedin {
   font-size: 1.1rem;
-  color: beige;
+  color: #e0e004;
 }
 /*# sourceMappingURL=style.css.map */

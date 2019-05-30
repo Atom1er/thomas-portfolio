@@ -397,10 +397,14 @@ body{
     // border-left: 2px solid beige;
     margin: 5px;
     padding: 5px; 
+    #email{
+        text-transform: uppercase;
+    }
 }
 
 #contact{
     background-color: rgba(100, 158, 180, 0.3);
+    color: rgb(224, 224, 4);   
     width: 80%;
     margin: auto;
     padding: 25px;
@@ -489,5 +493,5 @@ body{
 
 #linkedin{
     font-size: 1.1rem;
-    color: beige;
+    color: rgb(224, 224, 4);
 }
