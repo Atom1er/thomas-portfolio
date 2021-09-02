@@ -1,7 +1,61 @@
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+          box-shadow: inset 0 0 5px #2f2f2f;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+  border-right: 1px solid beige;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: black;
+}
+
+.projects {
+  margin: 30px 15px !important;
+}
+
+.project-image {
+  max-width: 275px !important;
+  max-height: 175px !important;
+  margin: auto;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tech-used {
+  height: 30px;
+  margin: 5px 3px;
 }
 
 #projects-tab {
@@ -101,7 +155,7 @@ body {
 #contain {
   position: relative;
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 #header {
@@ -110,7 +164,7 @@ body {
 }
 
 #tab {
-  height: 100%;
+  height: 90%;
   margin: 0;
   padding: 0;
 }
@@ -124,6 +178,21 @@ body {
   #tab ul li:nth-child(1) {
     width: 100%;
     height: 10%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(1) ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(1) ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(1) ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -140,6 +209,21 @@ body {
             transform: rotate(0);
     margin-top: 10px;
     font-size: large;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(1) .title ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(1) .title ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(1) .title ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -152,6 +236,21 @@ body {
   #tab ul li:nth-child(2) {
     width: 100%;
     height: 70%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(2) ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(2) ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(2) ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -165,6 +264,21 @@ body {
     width: 100%;
     margin-top: 10px;
     font-size: large;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(2) .title ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(2) .title ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(2) .title ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -177,6 +291,21 @@ body {
   #tab ul li:nth-child(3) {
     width: 100%;
     height: 10%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(3) ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(3) ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(3) ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -193,6 +322,21 @@ body {
             transform: rotate(0);
     margin-top: 10px;
     font-size: large;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(3) .title ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(3) .title ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(3) .title ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -205,6 +349,21 @@ body {
   #tab ul li:nth-child(4) {
     width: 100%;
     height: 10%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(4) ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(4) ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(4) ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -220,6 +379,21 @@ body {
             transform: rotate(0);
     margin-top: 10px;
     font-size: large;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:nth-child(4) .title ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(4) .title ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:nth-child(4) .title ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -233,6 +407,21 @@ body {
   #tab ul:hover li {
     width: 100%;
     height: 10%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul:hover li ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul:hover li ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul:hover li ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -245,12 +434,44 @@ body {
   #tab ul:hover li .title {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul:hover li .title ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul:hover li .title ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul:hover li .title ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
 @media (max-width: 600px) {
+  #tab ul:hover li {
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
   #tab ul:hover li .tab-text {
     right: -100%;
+  }
+  #tab ul:hover li ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul:hover li ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul:hover li ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -262,6 +483,21 @@ body {
   #tab ul:hover li #welcom {
     bottom: 0;
     right: -100%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul:hover li #welcom ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul:hover li #welcom ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul:hover li #welcom ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -298,6 +534,21 @@ body {
   #tab ul li .tab-text {
     bottom: 0;
     right: -100%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li .tab-text ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li .tab-text ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li .tab-text ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -321,6 +572,21 @@ body {
     letter-spacing: 0.1em;
     line-height: 2rem;
     font-size: 1.2rem;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li #welcom ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li #welcom ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li #welcom ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -335,6 +601,21 @@ body {
 @media (max-width: 600px) {
   #tab ul li #welcom #launch {
     visibility: hidden;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li #welcom #launch ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li #welcom #launch ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li #welcom #launch ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -359,6 +640,21 @@ body {
   #tab ul li:hover {
     width: 100%;
     height: 70%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:hover ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:hover ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:hover ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -377,6 +673,21 @@ body {
     top: 50px;
     right: 5px;
     height: 100%;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:hover .tab-text ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:hover .tab-text ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:hover .tab-text ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -400,6 +711,21 @@ body {
     letter-spacing: 0.1em;
     line-height: 2rem;
     font-size: 1.2rem;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #tab ul li:hover #welcom ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #tab ul li:hover #welcom ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #tab ul li:hover #welcom ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -436,6 +762,21 @@ body {
 @media (max-width: 600px) {
   #logos {
     display: none;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #logos ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #logos ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #logos ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -494,6 +835,21 @@ body {
 @media (max-width: 600px) {
   #who-i-am #introduction {
     margin: 5px;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #who-i-am #introduction ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #who-i-am #introduction ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #who-i-am #introduction ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 
@@ -517,6 +873,21 @@ body {
     height: 7em;
     background-size: cover;
     margin-bottom: 5px;
+    /* Track */
+    /* Handle */
+    /* Handle on hover */
+  }
+  #who-i-am #photo ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #2f2f2f;
+            box-shadow: inset 0 0 5px #2f2f2f;
+    border-radius: 10px;
+  }
+  #who-i-am #photo ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  #who-i-am #photo ::-webkit-scrollbar-thumb:hover {
+    background: black;
   }
 }
 

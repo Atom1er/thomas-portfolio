@@ -2,28 +2,45 @@
   padding: 25px 25px;
 }
 
-#modal-little-feet-contain {
+.modal-project-description {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5rem;
+}
+
+#yennega-contain {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 80vw;
-  height: 80vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -webkit-transition: 0.2s;
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-#modal-little-feet-contain #modal-little-feet-header {
-  position: absolute;
-  right: 30px;
-  top: 30px;
+#yennega-contain #yennega-header {
+  text-align: right;
+  padding: 15px;
 }
 
-#modal-little-feet-contain #modal-little-feet-header span a {
+#yennega-contain #yennega-header span a {
   text-decoration: none;
   padding: 25px 25px;
   -ms-flex-item-align: auto;
@@ -31,36 +48,40 @@
       align-self: auto;
 }
 
-#modal-little-feet-contain #modal-little-feet-body {
-  position: absolute;
-  left: 30px;
-  top: 40px;
+#yennega-contain #yennega-body {
+  margin: 15px auto;
+  text-align: center;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .image-description {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  display: inline-block;
+#yennega-contain #yennega-body .image-description {
+  padding: 15px;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .image-description .modal-project-image {
-  position: relative;
-  width: 100%;
-  height: 50%;
+#yennega-contain #yennega-body .image-description .modal-project-image {
+  width: 96%;
+  max-width: 1000px;
+  margin-left: 1.5%;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .image-description .link {
+#yennega-contain #yennega-body .image-description .link {
   margin-top: 10px;
+  padding-top: 15px;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .image-description .link p a {
-  margin: 15px 35px 15px 35px;
+#yennega-contain #yennega-body .image-description .link span {
+  padding: 10px 15px;
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#yennega-contain #yennega-body .image-description .link span a {
   text-decoration: none;
-  color: #1515f3;
+  color: beige;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .modal-project-tech {
+#yennega-contain #yennega-body .modal-project-tech {
   position: relative;
   width: 30%;
   height: 100%;
@@ -70,7 +91,7 @@
   margin-top: 45px;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .modal-project-tech .modal-project-tech-used {
+#yennega-contain #yennega-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
   -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
@@ -81,18 +102,18 @@
   text-align: center;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
+#yennega-contain #yennega-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
 
-#modal-little-feet-contain #modal-little-feet-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
+#yennega-contain #yennega-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
   height: 25px;
 }
 
-#modal-little-feet {
+#yennega {
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -105,70 +126,90 @@
   z-index: -5;
 }
 
-#modal-little-feet:target {
+#yennega:target {
   z-index: 10;
   visibility: visible;
 }
 
-#modal-little-feet:target #modal-little-feet-contain {
+#yennega:target #yennega-contain {
   visibility: visible;
 }
 
-#modal-movie-finder-contain {
+#levys-contain {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 80vw;
-  height: 80vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -webkit-transition: 0.2s;
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-header {
-  position: absolute;
-  right: 30px;
-  top: 30px;
+#levys-contain #levys-header {
+  text-align: right;
+  padding: 15px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-header span a {
+#levys-contain #levys-header span a {
   text-decoration: none;
   padding: 25px 25px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body {
-  position: absolute;
-  left: 30px;
-  top: 40px;
+#levys-contain #levys-body {
+  margin: 15px auto;
+  text-align: center;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .image-description {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  display: inline-block;
+#levys-contain #levys-body .image-description {
+  padding: 15px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .image-description .modal-project-image {
-  position: relative;
-  width: 100%;
-  height: 50%;
+#levys-contain #levys-body .image-description .modal-project-image {
+  width: 96%;
+  max-width: 1000px;
+  margin-left: 1.5%;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .image-description .link {
+#levys-contain #levys-body .image-description .link {
   margin-top: 10px;
+  padding-top: 15px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .image-description .link p a {
-  margin: 15px 35px 15px 35px;
+#levys-contain #levys-body .image-description .link span {
+  padding: 10px 15px;
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#levys-contain #levys-body .image-description .link span a {
   text-decoration: none;
+  color: beige;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .modal-project-tech {
+#levys-contain #levys-body .modal-project-tech {
   position: relative;
   width: 30%;
   height: 100%;
@@ -178,7 +219,7 @@
   margin-top: 45px;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .modal-project-tech .modal-project-tech-used {
+#levys-contain #levys-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
   -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
@@ -189,18 +230,18 @@
   text-align: center;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
+#levys-contain #levys-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
 
-#modal-movie-finder-contain #modal-movie-finder-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
+#levys-contain #levys-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
   height: 25px;
 }
 
-#modal-movie-finder {
+#levys {
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -213,12 +254,12 @@
   z-index: -5;
 }
 
-#modal-movie-finder:target {
+#levys:target {
   z-index: 10;
   visibility: visible;
 }
 
-#modal-movie-finder:target #modal-movie-finder-contain {
+#levys:target #levys-contain {
   visibility: visible;
 }
 
@@ -227,66 +268,85 @@
   visibility: hidden;
 }
 
-#close2:target #modal-movie-finder-contain {
+#close2:target #levys-contain {
   visibility: hidden;
 }
 
-#modal-friend-finder-contain {
+#peniel-contain {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 80vw;
-  height: 80vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -webkit-transition: 0.2s;
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-header {
-  position: absolute;
-  right: 30px;
-  top: 30px;
+#peniel-contain #peniel-header {
+  text-align: right;
+  padding: 15px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-header span a {
+#peniel-contain #peniel-header span a {
   text-decoration: none;
   padding: 25px 25px;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body {
-  position: absolute;
-  left: 30px;
-  top: 40px;
+#peniel-contain #peniel-body {
+  margin: 15px auto;
+  text-align: center;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .image-description {
-  position: relative;
-  width: 60%;
-  height: 100%;
-  display: inline-block;
+#peniel-contain #peniel-body .image-description {
+  padding: 15px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .image-description .modal-project-image {
-  position: relative;
-  width: 100%;
-  height: 50%;
+#peniel-contain #peniel-body .image-description .modal-project-image {
+  width: 96%;
+  max-width: 1000px;
+  margin-left: 1.5%;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .image-description .link {
+#peniel-contain #peniel-body .image-description .link {
   margin-top: 10px;
+  padding-top: 15px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .image-description .link p a {
-  margin: 15px 35px 15px 35px;
+#peniel-contain #peniel-body .image-description .link span {
+  padding: 10px 15px;
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#peniel-contain #peniel-body .image-description .link span a {
   text-decoration: none;
-  color: #1515f3;
+  color: beige;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .modal-project-tech {
+#peniel-contain #peniel-body .modal-project-tech {
   position: relative;
   width: 30%;
   height: 100%;
@@ -296,7 +356,7 @@
   margin-top: 45px;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .modal-project-tech .modal-project-tech-used {
+#peniel-contain #peniel-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
   -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
@@ -307,18 +367,18 @@
   text-align: center;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
+#peniel-contain #peniel-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
 
-#modal-friend-finder-contain #modal-friend-finder-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
+#peniel-contain #peniel-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
   height: 25px;
 }
 
-#modal-friend-finder {
+#peniel {
   visibility: hidden;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
@@ -328,15 +388,15 @@
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
+  z-index: -5;
 }
 
-#modal-friend-finder:target {
+#peniel:target {
   z-index: 10;
   visibility: visible;
 }
 
-#modal-friend-finder:target #modal-friend-finder-contain {
+#peniel:target #peniel-contain {
   visibility: visible;
 }
 
@@ -345,7 +405,7 @@
   visibility: hidden;
 }
 
-#close3:target #modal-friend-finder-contain {
+#close3:target #peniel-contain {
   visibility: hidden;
 }
 
@@ -383,7 +443,7 @@
 
 #modal-gif-finder-contain #modal-gif-finder-body .image-description {
   position: relative;
-  width: 60%;
+  width: 90%;
   height: 100%;
   display: inline-block;
 }
