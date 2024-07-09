@@ -3,7 +3,7 @@
 }
 
 .modal-project-description {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
 }
 
@@ -11,63 +11,44 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
 #yennega-contain #yennega-header {
   text-align: right;
   padding: 15px;
 }
-
 #yennega-contain #yennega-header span a {
   text-decoration: none;
   padding: 25px 25px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
-
 #yennega-contain #yennega-body {
   margin: 15px auto;
   text-align: center;
 }
-
 #yennega-contain #yennega-body .image-description {
   padding: 15px;
 }
-
 #yennega-contain #yennega-body .image-description .modal-project-image {
   width: 96%;
   max-width: 1000px;
   margin-left: 1.5%;
 }
-
 #yennega-contain #yennega-body .image-description .link {
   margin-top: 10px;
   padding-top: 15px;
 }
-
 #yennega-contain #yennega-body .image-description .link span {
   padding: 10px 15px;
   background-color: black;
@@ -75,12 +56,10 @@
   cursor: pointer;
   border-radius: 4px;
 }
-
 #yennega-contain #yennega-body .image-description .link span a {
   text-decoration: none;
   color: beige;
 }
-
 #yennega-contain #yennega-body .modal-project-tech {
   position: relative;
   width: 30%;
@@ -90,7 +69,6 @@
   margin-right: 10px;
   margin-top: 45px;
 }
-
 #yennega-contain #yennega-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
@@ -101,12 +79,10 @@
   padding: 5px;
   text-align: center;
 }
-
 #yennega-contain #yennega-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
-
 #yennega-contain #yennega-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
@@ -119,7 +95,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
@@ -130,7 +105,6 @@
   z-index: 10;
   visibility: visible;
 }
-
 #yennega:target #yennega-contain {
   visibility: visible;
 }
@@ -139,63 +113,44 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
 #levys-contain #levys-header {
   text-align: right;
   padding: 15px;
 }
-
 #levys-contain #levys-header span a {
   text-decoration: none;
   padding: 25px 25px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
-
 #levys-contain #levys-body {
   margin: 15px auto;
   text-align: center;
 }
-
 #levys-contain #levys-body .image-description {
   padding: 15px;
 }
-
 #levys-contain #levys-body .image-description .modal-project-image {
   width: 96%;
   max-width: 1000px;
   margin-left: 1.5%;
 }
-
 #levys-contain #levys-body .image-description .link {
   margin-top: 10px;
   padding-top: 15px;
 }
-
 #levys-contain #levys-body .image-description .link span {
   padding: 10px 15px;
   background-color: black;
@@ -203,12 +158,10 @@
   cursor: pointer;
   border-radius: 4px;
 }
-
 #levys-contain #levys-body .image-description .link span a {
   text-decoration: none;
   color: beige;
 }
-
 #levys-contain #levys-body .modal-project-tech {
   position: relative;
   width: 30%;
@@ -218,7 +171,6 @@
   margin-right: 10px;
   margin-top: 45px;
 }
-
 #levys-contain #levys-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
@@ -229,12 +181,10 @@
   padding: 5px;
   text-align: center;
 }
-
 #levys-contain #levys-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
-
 #levys-contain #levys-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
@@ -247,7 +197,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
@@ -258,7 +207,6 @@
   z-index: 10;
   visibility: visible;
 }
-
 #levys:target #levys-contain {
   visibility: visible;
 }
@@ -267,7 +215,6 @@
   z-index: -5;
   visibility: hidden;
 }
-
 #close2:target #levys-contain {
   visibility: hidden;
 }
@@ -276,63 +223,44 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
 #peniel-contain #peniel-header {
   text-align: right;
   padding: 15px;
 }
-
 #peniel-contain #peniel-header span a {
   text-decoration: none;
   padding: 25px 25px;
-  -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  align-self: auto;
 }
-
 #peniel-contain #peniel-body {
   margin: 15px auto;
   text-align: center;
 }
-
 #peniel-contain #peniel-body .image-description {
   padding: 15px;
 }
-
 #peniel-contain #peniel-body .image-description .modal-project-image {
   width: 96%;
   max-width: 1000px;
   margin-left: 1.5%;
 }
-
 #peniel-contain #peniel-body .image-description .link {
   margin-top: 10px;
   padding-top: 15px;
 }
-
 #peniel-contain #peniel-body .image-description .link span {
   padding: 10px 15px;
   background-color: black;
@@ -340,12 +268,10 @@
   cursor: pointer;
   border-radius: 4px;
 }
-
 #peniel-contain #peniel-body .image-description .link span a {
   text-decoration: none;
   color: beige;
 }
-
 #peniel-contain #peniel-body .modal-project-tech {
   position: relative;
   width: 30%;
@@ -355,7 +281,6 @@
   margin-right: 10px;
   margin-top: 45px;
 }
-
 #peniel-contain #peniel-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
@@ -366,12 +291,10 @@
   padding: 5px;
   text-align: center;
 }
-
 #peniel-contain #peniel-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
-
 #peniel-contain #peniel-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
@@ -384,7 +307,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
@@ -395,7 +317,6 @@
   z-index: 10;
   visibility: visible;
 }
-
 #peniel:target #peniel-contain {
   visibility: visible;
 }
@@ -404,8 +325,227 @@
   z-index: -5;
   visibility: hidden;
 }
-
 #close3:target #peniel-contain {
+  visibility: hidden;
+}
+
+#pg-contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  background-color: beige;
+  visibility: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#pg-contain #pg-header {
+  text-align: right;
+  padding: 15px;
+}
+#pg-contain #pg-header span a {
+  text-decoration: none;
+  padding: 25px 25px;
+  align-self: auto;
+}
+#pg-contain #pg-body {
+  margin: 15px auto;
+  text-align: center;
+}
+#pg-contain #pg-body .image-description {
+  padding: 15px;
+}
+#pg-contain #pg-body .image-description .modal-project-image {
+  width: 96%;
+  max-width: 1000px;
+  margin-left: 1.5%;
+}
+#pg-contain #pg-body .image-description .link {
+  margin-top: 10px;
+  padding-top: 15px;
+}
+#pg-contain #pg-body .image-description .link span {
+  padding: 10px 15px;
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#pg-contain #pg-body .image-description .link span a {
+  text-decoration: none;
+  color: beige;
+}
+#pg-contain #pg-body .modal-project-tech {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  float: right;
+  clear: both;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+#pg-contain #pg-body .modal-project-tech .modal-project-tech-used {
+  position: relative;
+  width: 80%;
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+          clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+  border-radius: 15px;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+}
+#pg-contain #pg-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
+  color: beige;
+  text-transform: uppercase;
+}
+#pg-contain #pg-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
+  position: relative;
+  width: 35px;
+  height: 25px;
+}
+
+#pg {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+}
+
+#pg:target {
+  z-index: 10;
+  visibility: visible;
+}
+#pg:target #pg-contain {
+  visibility: visible;
+}
+
+#close2:target {
+  z-index: -5;
+  visibility: hidden;
+}
+#close2:target #pg-contain {
+  visibility: hidden;
+}
+
+#os-contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  background-color: beige;
+  visibility: hidden;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#os-contain #os-header {
+  text-align: right;
+  padding: 15px;
+}
+#os-contain #os-header span a {
+  text-decoration: none;
+  padding: 25px 25px;
+  align-self: auto;
+}
+#os-contain #os-body {
+  margin: 15px auto;
+  text-align: center;
+}
+#os-contain #os-body .image-description {
+  padding: 15px;
+}
+#os-contain #os-body .image-description .modal-project-image {
+  width: 96%;
+  max-width: 1000px;
+  margin-left: 1.5%;
+}
+#os-contain #os-body .image-description .link {
+  margin-top: 10px;
+  padding-top: 15px;
+}
+#os-contain #os-body .image-description .link span {
+  padding: 10px 15px;
+  background-color: black;
+  color: beige;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#os-contain #os-body .image-description .link span a {
+  text-decoration: none;
+  color: beige;
+}
+#os-contain #os-body .modal-project-tech {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  float: right;
+  clear: both;
+  margin-right: 10px;
+  margin-top: 45px;
+}
+#os-contain #os-body .modal-project-tech .modal-project-tech-used {
+  position: relative;
+  width: 80%;
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+          clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+  border-radius: 15px;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+}
+#os-contain #os-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
+  color: beige;
+  text-transform: uppercase;
+}
+#os-contain #os-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
+  position: relative;
+  width: 35px;
+  height: 25px;
+}
+
+#os {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+}
+
+#os:target {
+  z-index: 10;
+  visibility: visible;
+}
+#os:target #os-contain {
+  visibility: visible;
+}
+
+#close2:target {
+  z-index: -5;
+  visibility: hidden;
+}
+#close2:target #os-contain {
   visibility: hidden;
 }
 
@@ -415,55 +555,45 @@
   left: 50%;
   width: 80vw;
   height: 80vh;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transition: 0.2s;
+  transform: translate(-50%, -50%);
   transition: 0.2s;
   background-color: beige;
   visibility: hidden;
   border-radius: 15px;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-header {
   position: absolute;
   right: 30px;
   top: 30px;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-header span a {
   text-decoration: none;
   padding: 25px 25px;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body {
   position: absolute;
   left: 30px;
   top: 40px;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .image-description {
   position: relative;
   width: 90%;
   height: 100%;
   display: inline-block;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .image-description .modal-project-image {
   position: relative;
   width: 100%;
   height: 50%;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .image-description .link {
   margin-top: 10px;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .image-description .link p a {
   margin: 15px 35px 15px 35px;
   text-decoration: none;
-  color: #1515f3;
+  color: rgb(21, 21, 243);
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .modal-project-tech {
   position: relative;
   width: 30%;
@@ -473,7 +603,6 @@
   margin-right: 10px;
   margin-top: 45px;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .modal-project-tech .modal-project-tech-used {
   position: relative;
   width: 80%;
@@ -484,12 +613,10 @@
   padding: 5px;
   text-align: center;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .modal-project-tech .modal-project-tech-used .modal-project-tech-text {
   color: beige;
   text-transform: uppercase;
 }
-
 #modal-gif-finder-contain #modal-gif-finder-body .modal-project-tech .modal-project-tech-used .modal-project-tech-img {
   position: relative;
   width: 35px;
@@ -502,7 +629,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   width: 100vw;
   height: 100vh;
@@ -513,7 +639,6 @@
   z-index: 10;
   visibility: visible;
 }
-
 #modal-gif-finder:target #modal-gif-finder-contain {
   visibility: visible;
 }
@@ -522,8 +647,6 @@
   z-index: -5;
   visibility: hidden;
 }
-
 #close4:target #modal-gif-finder-contain {
   visibility: hidden;
-}
-/*# sourceMappingURL=modal.css.map */
+}/*# sourceMappingURL=modal.css.map */
